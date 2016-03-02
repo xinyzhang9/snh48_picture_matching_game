@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>SNH48 card game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+  	$user = prompt("please input your nickname: ");
+  </script>
+</head>
+
+<body onload="show();">
+
+<div id="stage"><!-- --></div>
+<div class = "wrapper"><span class = "tt">time </span><span id="time"></span><input type="button" value="reset" onclick="location.reload()" class = "button">
+	<div id = "result"></div>
+	<div id = "history"></div>
+</div>
+	
+
+<script type="text/javascript" src="game.js"></script>
+<script type="text/javascript">
+  var game = new CardGame("stage");
+</script>
+
+</body>
+</html>
