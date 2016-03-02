@@ -139,7 +139,7 @@ var clsStopwatch = function() {
     // Stop or pause
     this.stop = function() {
         // If running, update elapsed time otherwise keep it
-        lapTime = startAt ? lapTime + now() - startAt : lapTime;
+        lapTime = startAt ? now() - startAt : lapTime;
         $result_time = lapTime;
         startAt = 0; // Paused
       };
