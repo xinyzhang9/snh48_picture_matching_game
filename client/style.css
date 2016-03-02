@@ -76,6 +76,11 @@ span.green{
 #history{
   border: 1px solid gray;
 }
+span.title{
+  font-weight: bolder;
+  font-size: 25px;
+  font-family: Arial
+}
 </style>
 </head>
 <body>
