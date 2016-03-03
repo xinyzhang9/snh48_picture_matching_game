@@ -60,6 +60,8 @@ var CardGame = function(targetId)
           matches_found = 0;
           started = false;
           stop_timer();
+          var audio = new Audio("sound/success.mp3");
+          audio.play();
 
         }
       } else { // no match
